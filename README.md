@@ -15,6 +15,7 @@
 
     npm install iedriver --save-dev
 
+    npm install mocha
 
 # Executar
 
