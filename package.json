@@ -1,0 +1,20 @@
+{
+  "name": "fluxodecompras",
+  "version": "1.0.0",
+  "description": "Teste automatizados de fluxo de compras no site Palácio das Ferramentas",
+  "main": "fluxoCompras.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustavo B. Nakada",
+  "license": "ISC",
+  "dependencies": {
+    "edgedriver": "^5.2.1",
+    "selenium-webdriver": "^4.9.2"
+  },
+  "devDependencies": {
+    "chromedriver": "^113.0.0",
+    "iedriver": "^4.0.0",
+    "msedgedriver": "^91.0.0"
+  }
+}

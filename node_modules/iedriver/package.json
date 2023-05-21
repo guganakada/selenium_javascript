@@ -1,0 +1,36 @@
+{
+  "name": "iedriver",
+  "version": "4.0.0",
+  "keywords": [
+    "iedriver",
+    "iedriverserver",
+    "selenium"
+  ],
+  "description": "IEDriver for Selenium",
+  "homepage": "https://github.com/barretts/node-iedriver",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/barretts/node-iedriver.git"
+  },
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Barrett Sonntag",
+    "email": "barrett@sosuke.com",
+    "url": "http://www.sosuke.com"
+  },
+  "main": "lib/iedriver",
+  "bin": {
+    "iedriver": "./bin/iedriver"
+  },
+  "scripts": {
+    "install": "node install.js"
+  },
+  "dependencies": {
+    "extract-zip": "1.7.0",
+    "kew": "~0.1.7",
+    "mkdirp": "0.5.4",
+    "npmconf": "^2.1.3",
+    "request": "^2.88.0",
+    "rimraf": "~2.0.2"
+  }
+}
